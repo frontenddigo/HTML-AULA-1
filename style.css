@@ -1,0 +1,93 @@
+/* Reset e base */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #633b3e;
+  background-color: rgb(245, 247, 143);
+}
+header {
+    background-color: rgb(245, 247, 143);/* sua cor primária */
+    color: #633b3e;
+    text-align: center;
+    padding: 40px 20px;
+}
+header h1 {
+    font-size: 5.2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+nav{
+    background-color: #633b3e;
+     text-align: center;
+    padding: 8px 16px;
+}
+
+nav a {
+    color: #8f595d;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius:  6px;
+    font-weight: 600;
+    transition: background.2s  ;
+    background-color: #b99789;
+}
+nav a:hover {
+    background: none;
+}
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 40px;
+}
+section{margin-bottom: 32px;}
+h2{
+    font-size: 1.4rem;
+    font-weight: 555;
+    color: #633b3e;
+    border-left: 10px solid #633b3e;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+p{color:#633b3e; margin-bottom: 5px;}
+ul{list-style: none;padding:0;}
+ui li{padding: 8px 0 8px 20px;
+  border-bottom: 1px solid #b99789;
+  position: relative;
+  color: #633b3e;
+    
+}
+ul li::before{
+    content: ">";
+    color:#633b3e;
+    position: flex;
+    left: 0;
+    font-weight: 700;
+}
+footer{
+    background-color: #633b3e;
+    color:  rgb(63, 39, 26 ,.7);
+    text-align: center;
+    padding: 28px 20px;
+    font-size: .9rem;
+    margin-top: 40px;
+    
+}
+footer p{
+    color:rgb(245, 247, 143)
+}
+.Contatos{
+    font-size: 1.4rem;
+    font-weight: 555;
+    color: #633b3e;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
