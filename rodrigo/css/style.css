@@ -1,0 +1,122 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+    --primary-color: #560734;
+    --background-color: #5F3110;
+    --highlight-color:#004D49;
+}
+
+header {
+    background: var(--background-color);
+    align-items: center;
+    text-align: center;
+    color: var(--highlight-color);
+    border: 16px;
+}
+
+h1 {
+    color: var(--highlight-color);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+    font-size:x-large;
+}
+
+header p {
+    color: var(--highlight-color);
+    text-align: center;
+}
+
+nav {
+    background-color: var(--primary-color);
+    padding: 16px 16px;
+    text-align: center;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: background .2s;
+}
+
+nav a:hover {
+    background: var(--highlight-color);
+}
+
+body {
+    background-color: var(--background-color);
+    text-align: left;
+}
+
+h2 {
+    box-sizing: border-box;
+    border-color: var(--highlight-color);
+    text-align: left;
+}
+
+.box {
+    border: 2px solid var(--primary-color);
+    padding: 15px;
+    margin: 20px auto;
+    background-color: var(--background-color);
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+    text-align: left;
+}
+
+.box p {
+    margin: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    color: var(--highlight-color);
+    text-align: left;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+section {
+    margin-bottom: 32px;
+}
+
+h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    border-left: 4px solid var(--primary-color);
+    padding-left: 12px;
+    margin-bottom: 12px;
+}
+
+p {
+    color: black;
+    margin-bottom: 12px;
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 8px 0 8px 20px;
+    border-bottom: 1px solid;
+    position: relative;
+    color: black;
+    text-align: left;
+}
+
+ul li::before {
+    content: "º";
+    color: var(--primary-color);
+    position: absolute;
+    left: 0;
+    font-weight: 700;
+}
